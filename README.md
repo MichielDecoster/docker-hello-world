@@ -34,3 +34,9 @@ Makes it possible to run containers in the background. Easily combined with the 
 ```
 docker run -d -p 80:80 public
 ```
+
+## Running Containers
+```
+docker ps
+```
+Shows the running containers
