@@ -40,3 +40,8 @@ docker run -d -p 80:80 public
 docker ps
 ```
 Shows the running containers
+
+## Stopping Containers
+```
+docker stop <container_id/name>
+```
