@@ -16,6 +16,12 @@ docker images
 docker run -it -p 80:80 public
 ```
 
+## To run docker image with name
+
+```
+docker run --name <image>
+```
+
 ### The -it flag
 Will make sure the output of the container is forwarded to the terminal.
 
@@ -89,3 +95,9 @@ docker run ubuntu sleep 5
 docker exec <container_id/name> cat /etc/hosts
 ```
 Runs a command on the docker container
+
+## Running older version of a image
+```
+docker run <image>:<version>
+```
+If not specified automatically runs :latest
