@@ -30,7 +30,7 @@ docker-machine ip
 ```
 
 ### The -d flag:
-Makes it possible to run containers in the background. Easily combined with the `docker run` command.
+Makes it possible to run containers in the background (detached mode). Easily combined with the `docker run` command.
 ```
 docker run -d -p 80:80 public
 ```
