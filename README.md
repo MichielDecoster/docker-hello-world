@@ -50,3 +50,42 @@ Shows running aswell as previously stopped containers
 ```
 docker stop <container_id/name>
 ```
+
+## Remove Containers
+```
+docker rm <container_id/name>
+```
+
+## Docker Images
+```
+docker images
+```
+Lists images & sizes.
+
+To remove images:
+```
+docker rmi <image_name>
+```
+Make sure no containers are running of that image
+
+## Pulling images without running
+```
+docker pull <image_name>
+```
+
+## Containers are not meant to host Operating Systems
+
+They are meant to run images. It only lives as long as the process is alive.
+
+## Sleep command
+
+Used to let a container sleep for x amount of time (in this example 5 seconds)
+```
+docker run ubuntu sleep 5
+```
+
+## Docker exec command
+```
+docker exec <container_id/name> cat /etc/hosts
+```
+Runs a command on the docker container
