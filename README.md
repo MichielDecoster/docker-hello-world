@@ -41,6 +41,11 @@ docker ps
 ```
 Shows the running containers
 
+```
+docker ps -a
+```
+Shows running aswell as previously stopped containers
+
 ## Stopping Containers
 ```
 docker stop <container_id/name>
